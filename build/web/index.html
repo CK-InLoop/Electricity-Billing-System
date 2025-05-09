@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Welcome | Electricity Billing System</title>
+    <meta http-equiv="refresh" content="3; url=login.jsp" />
+    <style>
+        body {
+            background-color: #0c1a2b;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .loader {
+            margin-top: 20px;
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg);}
+            100% { transform: rotate(360deg);}
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Electricity Billing System</h1>
+    <div class="loader"></div>
+</body>
+</html>

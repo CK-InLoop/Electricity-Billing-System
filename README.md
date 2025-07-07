@@ -2,6 +2,8 @@
 
 An end-to-end web-based electricity billing management system built using **JSP**, **Servlets**, **JDBC**, and **MySQL**. This project automates the processes of user registration, meter info management, bill calculation, and payment tracking in a utility company.
 
+🔗 **Live Demo:** [View App on Render](https://electricity-billing-system-72w5.onrender.com)
+
 ---
 
 ## 🔧 Tech Stack

@@ -11,7 +11,7 @@ An end-to-end web-based electricity billing management system built using **JSP*
 - **Frontend**: HTML, CSS, JSP (Java Server Pages), Swing (for Admin UI)
 - **Backend**: Java Servlets, JDBC
 - **Database**: MySQL
-- **Server**: Apache Tomcat 11
+- **Server**: Apache Tomcat 9
 - **IDE**: NetBeans 25
 
 ---
